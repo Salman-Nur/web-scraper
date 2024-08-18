@@ -6,7 +6,7 @@ and collects stock prices when the market is open.
 Data is stored in a SQL Server database, with tables for Company and StockPrice information.
 
 # How to run?
-There is a migration just update it firstly.
+There is a migration just update it in database firstly.
 Then Run this command in command prompt
 sc.exe create myservice binpath= "C:\web-scraper\src\Assignment4\StockData.Worker\bin\Release\net8.0\publish\StockData.Worker.exe" start= auto
 
