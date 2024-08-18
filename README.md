@@ -5,6 +5,11 @@ from the Dhaka Stock Exchange (DSE) website. The service continuously monitors t
 and collects stock prices when the market is open.
 Data is stored in a SQL Server database, with tables for Company and StockPrice information.
 
+# How to run?
+There is a migration just update it firstly.
+Then Run this command in command prompt
+sc.exe create myservice binpath= "C:\web-scraper\src\Assignment4\StockData.Worker\bin\Release\net8.0\publish\StockData.Worker.exe" start= auto
+
 # Features:
 
 # Market Status Monitoring: 
